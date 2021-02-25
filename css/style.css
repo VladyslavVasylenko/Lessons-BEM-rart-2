@@ -1,0 +1,154 @@
+@import url(//db.onlinewebfonts.com/c/cf2e520b1f09b1054a329a50e225ac01?family=Museo+Sans+Rounded+100);
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: url(../img/Группа\ 1.png) no-repeat;
+  background-position: center;
+  margin: 0 auto;
+  padding: 0px 50px 0px 50px;
+}
+
+.wrapper{
+  background-color: #111a28;
+  width: 700px;
+  height: 391px;
+  margin: 90px auto;
+}
+
+header{
+  padding: 24px 0px 0px 21px;
+  margin-bottom: 69px;
+}
+
+.sneakers{
+  display: flex;
+  justify-content: space-around;
+}
+
+/*img-sneakers*/
+.sneakers__img-sneakers{
+  align-self: center;
+}
+
+.color-sneakers { 
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+}
+
+.color-sneakers__black { 
+  width: 11px;
+  height: 11px;
+  background-color: #1f273f;
+  border-radius: 50%;
+  margin-right: 9px;
+}
+
+.color-sneakers__white { 
+  width: 10px;
+  height: 10px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  margin-right: 9px;
+}
+
+.color-sneakers__red { 
+  width: 10px;
+  height: 10px;
+  background-color: #ed3333;
+  border-radius: 50%;
+  margin-right: 9px;
+}
+
+.color-sneakers__turquoise { 
+  width: 10px;
+  height: 10px;
+  background-color: #29e3ea;
+  border-radius: 50%;
+}
+
+.color-sneakers div:hover{
+  border: 2px solid #c5c5c8;
+  width: 12px;
+  height: 12px;
+}
+
+/*Block-name*/
+.block-name{
+  margin-top: -70px;
+}
+
+.block-name__title { 
+  width: 172px;
+  color: #e1e1e1;
+  font-family: "Museo Sans Rounded 100";
+  font-size: 24px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 26px;
+  letter-spacing: 0.48px;
+  margin-bottom: 10px;
+}
+
+.block-name__sumtitle { 
+  opacity: 0.54;
+  color: #e1e1e1;
+  font-family: "Museo Sans Rounded 100";
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 26px;
+  letter-spacing: 0.28px;
+  margin-bottom: 24px;
+}
+
+.stars{
+  margin-bottom: 27px;
+}
+
+/*form*/
+form{
+  width: 184px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+select{
+  width: 69px;
+  height: 32px;
+  opacity: 0.50;
+  border: 1px solid #ffffff;
+  background-color: #111a28;
+  color: #e1e1e1;
+  font-family: "Museo Sans Rounded 100";
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 18px;
+  letter-spacing: 0.28px;
+  padding-left: 5px;
+  margin-right: 2px;
+}
+
+.submit{
+  width: 184px;
+  height: 40px;
+  border: 1px solid #ffffff;
+  background-color: #4c525a;
+  opacity: 0.26;
+  font-family: "Museo Sans Rounded 100";
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 18px;
+  text-align: left;
+  letter-spacing: 0.28px;
+  padding-left: 58px;
+  margin-top: 29px;
+  color: #e1e1e1;
+}
